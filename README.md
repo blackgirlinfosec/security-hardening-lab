@@ -61,14 +61,17 @@ All tools were free and came with the operating system.
 
 ## 📸 Screenshots
 
-- `01_local_group_policy_editor.png`  
-- `02_password_policy_settings.png`  
-- `03_account_lockout_policy.png`  
-- `04_disabled_services.png`  
-- `05_audit_policy_settings.png`  
-- `06_firewall_rules_configured.png`  
-- `07_account_lockout_test.png`  
-- `08_event_log_verification.png`
+| Screenshot | Description |
+|------------|-------------|
+| ![01_local_group_policy_editor](./01_local_group_policy_editor.png) | 🧭 *Opened Local Group Policy Editor — starting point for hardening the system.* |
+| ![02_password_policy_settings](./02_password_policy_settings.png) | 🔐 *Enforced strong password rules: complexity, length, expiration, and history.* |
+| ![03_account_lockout_policy](./03_account_lockout_policy.png) | 🚫 *Configured account lockout after 5 failed attempts to block brute force attacks.* |
+| ![04_disabled_services](./04_disabled_services.png) | 📉 *Turned off Remote Registry and SMB to reduce lateral movement risk.* |
+| ![05_audit_policy_settings](./05_audit_policy_settings.png) | 👁️ *Enabled audit logging for logons, privilege use, and process creation.* |
+| ![06_firewall_rules_configured](./06_firewall_rules_configured.png) | 🧱 *Blocked inbound traffic to RDP and SMB via Windows Firewall.* |
+| ![07_account_lockout_test](./07_account_lockout_test.png) | 🚷 *Verified lockout policy by entering wrong password multiple times.* |
+| ![08_event_log_verification](./08_event_log_verification.png) | 🗂️ *Reviewed Event Viewer for logon attempts, lockouts, and process activity.* |
+
 
 ---
 
