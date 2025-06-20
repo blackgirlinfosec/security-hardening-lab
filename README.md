@@ -16,7 +16,6 @@ As part of my journey toward a Tier 1 SOC Analyst role, I wanted to go beyond re
 - Windows Defender Firewall  
 - Event Viewer  
 - Native Windows audit policies  
-- PowerShell (light use)
 
 All tools were free and came with the operating system.
 
